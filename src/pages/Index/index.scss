@@ -1,0 +1,136 @@
+.main-home {
+  padding-bottom: 50px;
+}
+//顶部搜索框
+.search {
+  position: absolute;
+  top: 25px;
+  width: 100%;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  z-index: 999;
+}
+.search-content {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  font-size: 16px;
+  background-color: #fff;
+  height: inherit;
+  line-height: 34px;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+.location {
+  width: 25%;
+  text-align: center;
+}
+.search-form {
+  flex: 1;
+  color: #999;
+}
+.icon-seach {
+  margin-right: 8px;
+}
+
+.icon-map {
+  font-size: 27px !important;
+  color: #fff;
+}
+//导航栏样式
+.guideMeun {
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  padding-top: 10px;
+}
+
+.guideMeun-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 50%;
+  }
+}
+
+//租房小组样式
+.grounp-nav {
+  height: 49px;
+  background-color: #f4f4f4;
+  h4 {
+    line-height: 49px;
+    padding: 0 10px;
+    span {
+      float: right;
+      font-weight: 400;
+      font-size: 12px;
+      color: #666;
+    }
+  }
+}
+
+.grounp-content {
+  background-color: #f4f4f4;
+  padding: 0 10px 10px 10px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  img {
+    width: 40%;
+  }
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  p {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  span {
+    color: #666;
+  }
+}
+
+//最新资讯样式
+.news-nav {
+  height: 49px;
+  background-color: #fff;
+  padding-left: 10px;
+  p {
+    font-weight: 700;
+    line-height: 49px;
+  }
+}
+.news-content {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  padding: 0 10px 10px 10px;
+  background-color: #fff;
+  border-bottom: 2px solid #f3f5f3;
+}
+
+.news-desc {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 8px;
+}
+
+.news-info {
+  display: flex;
+  justify-content: space-between;
+}

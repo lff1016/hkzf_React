@@ -1,0 +1,12 @@
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  --adm-color-primary: #21b97a;
+  --adm-color-weak: #888;
+  background-color: #fff;
+}
+
+.tab-bar .iconfont {
+  font-size: 20px;
+}
